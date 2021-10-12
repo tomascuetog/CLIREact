@@ -13,8 +13,36 @@
   }
 }
 
+.AppNavBar {
+  
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-rows: 800px;
+  grid-template-areas: "Inicio Servicios Nosotros Contacto";
+}
+
+.NavBarInicio {
+
+  grid-area: "Inicio";
+}
+
+.NavBarServicios {
+
+  grid-area: "Servicios";
+}
+
+.NavBarNosotros {
+
+  grid-area: "Nosotros";
+}
+
+.NavBarContacto {
+
+  grid-area: "Contacto";
+}
+
 .App-header {
-  background-color: #282c34;
+  background-color: #3a5f50;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
