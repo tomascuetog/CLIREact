@@ -1,0 +1,32 @@
+.itemListContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../../assets/abstract-pastel-holographic-textured-background.jpg");
+    background-repeat: repeat;
+  }
+  
+  .listaProductos {
+    display: flex;
+    justify-content: center;
+  }
+  
+  h1 {
+    margin: 2rem;
+    color: rgb(85, 82, 245);
+    text-align: center;
+  }
+  
+  .items {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    width: 17rem;
+    margin: 0.5rem;
+  }
+  
+  .card-body {
+    color: rgb(85, 82, 245);
+  }
